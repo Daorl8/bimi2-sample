@@ -1,5 +1,11 @@
 # CHANGELOG — 카페 비미 BIMI · 버전2 (미니멀리즘+한옥)
 
+## v2.3 (2026-09-05) 손글씨 폐기 → 정제 세리프(정갈 우선·한국적 차선)
+- 다올: 붓글씨/손글씨 느낌 완전 폐기. "한국적"보다 **정갈함 우선**. → 명조 방향 채택.
+- **제목 폰트**: Caveat(손글씨) → **Fraunces(라이트 300)** + 한글 폴백 **Noto Serif KR** 명조. 영문 큰제목은 정제 세리프로, 한글이 오면 명조로. 헤딩 자간 -.015em·라이트 웨이트로 정갈하게(크기도 하향).
+- **무늬**: 붓 스트로크(一) → **창살(문살) 격자 디바이더** 복귀(기하학·한국 전통·비손글씨).
+- 팔레트(순백+블랙+인장red)·영어 헤딩·공간 지점분리 유지. em=tradition(seal). (대안: 제목폰트 자체를 한국 명조 Gowun Batang/Nanum Myeongjo로 바꾸는 것도 가능—라틴은 더 담백.)
+
 ## v2.2 (2026-09-05) 제목폰트 정갈하게 + 헤딩 영어 + 공간 지점분리
 - **메인 제목 폰트**: Nanum Brush Script(너무 날림) → **Caveat**(정갈한 손글씨). 헤딩만 교체, 나머지(Inter·Pretendard) 유지.
 - **큰 제목 전부 영어화**: 히어로 "Minimal, layered with tradition." / Philosophy "Emptied space, filled with tradition." / Space "A room to empty, and to stay." / Menu "A cup of the basics, a plate of care." / Location "Two spaces, one bimi." (em=tradition, seal red). 본문·라벨 한글은 유지, og/footer 브랜드 카피 한글도 유지(제목 아님).
