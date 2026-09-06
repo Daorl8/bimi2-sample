@@ -23,7 +23,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nanum+Brush+Script&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"카페 비미","alternateName":"BIMI","description":"미니멀리즘 위에 한옥의 결을 얹은 감성 카페. 필터커피·수제디저트. 광주 동명동·전주 전라감영길.","image":"https://bimi-v2-sample.lgt3232.workers.dev/v2-hero.webp","url":"https://bimi-v2-sample.lgt3232.workers.dev/","telephone":"+82-70-7537-0480","servesCuisine":["Coffee","Dessert","Cafe"],"priceRange":"₩₩","address":{"@type":"PostalAddress","streetAddress":"동계로10번길 16 1층","addressLocality":"광주광역시 동구","addressCountry":"KR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"11:00","closes":"23:00"}]}
@@ -35,7 +35,7 @@
  --ink:#141414; --ink2:#565656; --faint:#9A9A9A;
  --seal:#B4392C;
  --line:#E7E7E7; --line2:#F0F0F0;
- --brush:'Nanum Brush Script',cursive;
+ --brush:'Caveat',cursive;
  --sans:'Inter',system-ui,-apple-system,sans-serif;
  --kr:'Pretendard Variable',Pretendard,system-ui,sans-serif;
  --bar:70px; --ease:cubic-bezier(.22,.61,.36,1);
@@ -123,6 +123,11 @@ section{position:relative}
 .ar45 .ph{aspect-ratio:4/5}.ar54 .ph{aspect-ratio:5/4}.ar11 .ph{aspect-ratio:1/1}.ar34 .ph{aspect-ratio:3/4}
 .span2{grid-column:1 / -1}.span2 .ph{aspect-ratio:16/8}
 .mt-lg{margin-top:clamp(30px,5vw,80px)}
+.sgroup{margin-top:clamp(40px,6vw,80px)}
+.sgroup:first-of-type{margin-top:0}
+.sgroup-lab{display:flex;align-items:baseline;gap:12px;margin-bottom:24px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.sgroup-lab .en{font-family:var(--sans);font-weight:700;font-size:1.1rem;letter-spacing:-.01em}
+.sgroup-lab .ko{font-family:var(--sans);font-size:.7rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
 
 /* ---------- menu (typographic list) ---------- */
 .menu{background:var(--paper2)}
@@ -227,7 +232,7 @@ footer a:focus-visible,.drawer a:focus-visible{outline-color:#fff}
   <div class="wrap hero-in">
     <div class="hero-txt">
       <span class="eyebrow">Cafe & Interior<span class="k">비미 디자인</span></span>
-      <h1>미니멀 위에,<br><em>전통</em>을 얹다</h1>
+      <h1>Minimal, layered<br>with <em>tradition</em>.</h1>
       <p class="lead">군더더기를 덜어낸 공간에 한옥의 결을 얹었습니다. 회화나무와 돌담, 창살 사이로 드는 자연광 곁에서 필터커피와 수제 디저트를 내어 드려요.</p>
       <div class="hero-cta">
         <a class="btn btn-fill" href="#menu">메뉴 보기</a>
@@ -248,7 +253,7 @@ footer a:focus-visible,.drawer a:focus-visible{outline-color:#fff}
   <div class="wrap philo-in">
     <div class="philo-txt rv">
       <span class="eyebrow" style="display:block;margin-bottom:22px">Philosophy<span class="k">비미의 결</span></span>
-      <h2>덜어낸 자리에,<br><em>전통의 결</em>을 들입니다.</h2>
+      <h2>Emptied space,<br>filled with <em>tradition</em>.</h2>
       <p>비미는 인테리어 스튜디오 ‘비미 디자인’이 직접 빚은 공간입니다. 북유럽 빈티지 가구의 묵직한 균형 위에 콜렉터가 모아온 오브제를 얹어, 군더더기 없는 미니멀리즘을 완성했어요.</p>
       <p>그 위에 얹은 것은 한옥의 결입니다. 돌담과 회화나무, 창살 사이로 스미는 자연광이 정갈한 공간과 만나 오직 비미에서만 느낄 수 있는 무드를 만듭니다.</p>
     </div>
@@ -261,16 +266,25 @@ footer a:focus-visible,.drawer a:focus-visible{outline-color:#fff}
   <div class="wrap">
     <div class="sec-head rv">
       <span class="eyebrow">Space<span class="k">공간</span></span>
-      <h2>비우고, 들이고, 머무는 자리</h2>
+      <h2>A room to empty,<br>and to stay.</h2>
     </div>
-    <div class="sgrid">
-      <figure class="sfig span2 rv"><div class="ph"><img src="v2-counter.webp" alt="바 카운터와 바리스타, 자연광이 드는 공간" loading="lazy"></div><figcaption><span class="t">The Counter</span><span>Gwangju</span></figcaption></figure>
-      <figure class="sfig ar45 rv"><div class="ph"><img src="v2-interior.webp" alt="화이트 벽과 원목 선반이 놓인 정갈한 내부" loading="lazy"></div><figcaption><span class="t">Interior</span><span>Gwangju</span></figcaption></figure>
-      <figure class="sfig ar45 rv"><div class="ph"><img src="v2-drip.webp" alt="핸드드립 커피를 내리는 모습" loading="lazy"></div><figcaption><span class="t">Hand Drip</span><span>Jeonju</span></figcaption></figure>
-      <figure class="sfig ar45 rv"><div class="ph"><img src="v2-shelf.webp" alt="오브제와 그릇이 놓인 선반" loading="lazy"></div><figcaption><span class="t">Objects</span><span>Gwangju</span></figcaption></figure>
-      <figure class="sfig ar45 rv"><div class="ph"><img src="v2-dessert.webp" alt="진열된 수제 디저트" loading="lazy"></div><figcaption><span class="t">Dessert</span><span>Jeonju</span></figcaption></figure>
-      <figure class="sfig ar45 rv"><div class="ph"><img src="v2-window.webp" alt="유리블럭 창으로 빛이 드는 카운터" loading="lazy"></div><figcaption><span class="t">Daylight</span><span>Jeonju</span></figcaption></figure>
-      <figure class="sfig ar45 rv"><div class="ph"><img src="v2-chairs.webp" alt="컬러가 담긴 디자이너 체어" loading="lazy"></div><figcaption><span class="t">Furniture</span><span>Jeonju</span></figcaption></figure>
+    <div class="sgroup rv">
+      <div class="sgroup-lab"><span class="en">Gwangju</span><span class="ko">광주 · 동명동</span></div>
+      <div class="sgrid">
+        <figure class="sfig ar54 rv"><div class="ph"><img src="v2-counter.webp" alt="광주점 — 바 카운터와 바리스타" loading="lazy"></div><figcaption><span class="t">The Counter</span></figcaption></figure>
+        <figure class="sfig ar54 rv"><div class="ph"><img src="v2-calm.webp" alt="광주점 — 화이트 벽에 걸린 시계와 꽃" loading="lazy"></div><figcaption><span class="t">Quiet Corner</span></figcaption></figure>
+        <figure class="sfig ar45 rv"><div class="ph"><img src="v2-interior.webp" alt="광주점 — 원목 선반이 놓인 정갈한 내부" loading="lazy"></div><figcaption><span class="t">Interior</span></figcaption></figure>
+        <figure class="sfig ar45 rv"><div class="ph"><img src="v2-shelf.webp" alt="광주점 — 오브제와 그릇이 놓인 선반" loading="lazy"></div><figcaption><span class="t">Objects</span></figcaption></figure>
+      </div>
+    </div>
+    <div class="sgroup rv">
+      <div class="sgroup-lab"><span class="en">Jeonju</span><span class="ko">전주 · 전라감영길</span></div>
+      <div class="sgrid">
+        <figure class="sfig ar45 rv"><div class="ph"><img src="v2-drip.webp" alt="전주점 — 핸드드립 커피를 내리는 모습" loading="lazy"></div><figcaption><span class="t">Hand Drip</span></figcaption></figure>
+        <figure class="sfig ar45 rv"><div class="ph"><img src="v2-dessert.webp" alt="전주점 — 진열된 수제 디저트" loading="lazy"></div><figcaption><span class="t">Dessert</span></figcaption></figure>
+        <figure class="sfig ar54 rv"><div class="ph"><img src="v2-window.webp" alt="전주점 — 유리블럭 창으로 빛이 드는 카운터" loading="lazy"></div><figcaption><span class="t">Daylight</span></figcaption></figure>
+        <figure class="sfig ar54 rv"><div class="ph"><img src="v2-chairs.webp" alt="전주점 — 컬러가 담긴 디자이너 체어" loading="lazy"></div><figcaption><span class="t">Furniture</span></figcaption></figure>
+      </div>
     </div>
   </div>
 </section>
@@ -282,7 +296,7 @@ footer a:focus-visible,.drawer a:focus-visible{outline-color:#fff}
   <div class="wrap menu-in">
     <div class="menu-intro rv">
       <span class="eyebrow" style="display:block;margin-bottom:20px">Menu<span class="k">메뉴</span></span>
-      <h2>기본에 충실한 한 잔, 정성을 담은 한 접시</h2>
+      <h2>A cup of the basics,<br>a plate of care.</h2>
       <p>매일 아침 신선하게 준비하는 수제 디저트와, 원두 본연의 향을 섬세하게 살린 필터커피. 계절마다 제철 재료로 시즌 메뉴가 달라집니다.</p>
     </div>
     <div class="menu-list rv">
@@ -320,7 +334,7 @@ footer a:focus-visible,.drawer a:focus-visible{outline-color:#fff}
   <div class="wrap">
     <div class="sec-head rv">
       <span class="eyebrow">Location<span class="k">오시는 길</span></span>
-      <h2>광주와 전주, 두 곳의 비미</h2>
+      <h2>Two spaces, one bimi.</h2>
     </div>
     <div class="loc-grid">
       <article class="loc rv">
