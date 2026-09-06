@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>카페 비미 BIMI — 미니멀리즘 위에 한옥을 얹다 · 광주 · 전주</title>
+<meta name="description" content="인테리어 스튜디오 비미 디자인이 빚은 카페 비미. 군더더기 없는 미니멀리즘 위에 한옥의 결을 얹은 공간에서, 필터커피와 수제 디저트를 만나보세요. 광주 동명동 · 전주 전라감영길.">
+<meta name="theme-color" content="#262320">
+<meta property="og:type" content="website">
+<meta property="og:title" content="카페 비미 BIMI — 미니멀리즘 위에 한옥을 얹다">
+<meta property="og:description" content="미니멀 위에 전통의 결을 얹은 공간. 필터커피와 수제 디저트. 광주 · 전주.">
+<meta property="og:image" content="https://bimi-v2-sample.lgt3232.workers.dev/og-bimi-v2.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://bimi-v2-sample.lgt3232.workers.dev/">
+<meta property="og:site_name" content="카페 비미 BIMI">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://bimi-v2-sample.lgt3232.workers.dev/og-bimi-v2.jpg">
+<link rel="canonical" href="https://bimi-v2-sample.lgt3232.workers.dev/">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nanum+Brush+Script&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"카페 비미","alternateName":"BIMI","description":"미니멀리즘 위에 한옥의 결을 얹은 감성 카페. 필터커피·수제디저트. 광주 동명동·전주 전라감영길.","image":"https://bimi-v2-sample.lgt3232.workers.dev/v2-hero.webp","url":"https://bimi-v2-sample.lgt3232.workers.dev/","telephone":"+82-70-7537-0480","servesCuisine":["Coffee","Dessert","Cafe"],"priceRange":"₩₩","address":{"@type":"PostalAddress","streetAddress":"동계로10번길 16 1층","addressLocality":"광주광역시 동구","addressCountry":"KR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"11:00","closes":"23:00"}]}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+ --paper:#FFFFFF; --paper2:#F7F7F7; --card:#FFFFFF;
+ --ink:#141414; --ink2:#565656; --faint:#9A9A9A;
+ --seal:#B4392C;
+ --line:#E7E7E7; --line2:#F0F0F0;
+ --brush:'Nanum Brush Script',cursive;
+ --sans:'Inter',system-ui,-apple-system,sans-serif;
+ --kr:'Pretendard Variable',Pretendard,system-ui,sans-serif;
+ --bar:70px; --ease:cubic-bezier(.22,.61,.36,1);
+}
+html{color-scheme:light;-webkit-text-size-adjust:100%;scroll-behavior:auto;scroll-padding-top:84px;overflow-x:hidden}
+body{font-family:var(--kr);color:var(--ink);background:var(--paper);line-height:1.75;font-weight:400;word-break:keep-all;overflow-wrap:break-word;overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.wrap{width:100%;max-width:1200px;margin:0 auto;padding:0 40px;position:relative}
+section{position:relative}
+::selection{background:var(--ink);color:var(--paper)}
+.serif{font-family:var(--brush);font-weight:400}
+/* 붓 스트로크 디바이더 */
+.brushrule{display:flex;justify-content:center;align-items:center}
+.brushrule svg{width:112px;height:22px;color:var(--ink);opacity:.9}
+/* eyebrow */
+.eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--ink2)}
+.eyebrow .k{font-family:var(--kr);letter-spacing:.04em;color:var(--ink2);margin-left:8px;text-transform:none}
+/* buttons — minimal underline / thin outline */
+.btn{display:inline-flex;align-items:center;gap:9px;font-family:var(--sans);font-weight:500;font-size:.86rem;letter-spacing:.02em;padding:13px 26px;border:1px solid var(--ink);border-radius:0;transition:background .25s var(--ease),color .25s}
+.btn svg{width:15px;height:15px}
+.btn-fill{background:var(--ink);color:var(--paper)}
+.btn-fill:hover{background:#3a352d}
+.btn-ol{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn-ol:hover{border-color:var(--ink)}
+.tlink{font-family:var(--sans);font-size:.82rem;font-weight:500;letter-spacing:.02em;color:var(--ink);border-bottom:1px solid var(--ink);padding-bottom:2px;transition:opacity .2s}
+.tlink:hover{opacity:.6}
+.tlink:hover{border-color:var(--ink)}
+
+/* ---------- header ---------- */
+.hdr{position:fixed;top:0;left:0;right:0;z-index:60;transition:background .35s var(--ease),border-color .35s}
+.hdr-in{height:var(--bar);display:flex;align-items:center;justify-content:space-between;padding:0 40px;max-width:1280px;margin:0 auto}
+.brand img{height:26px;width:auto}
+.nav-lnk{display:flex;gap:30px}
+.nav-lnk a{font-family:var(--sans);font-size:.82rem;font-weight:500;letter-spacing:.04em;color:var(--ink);opacity:.72;transition:opacity .2s}
+.nav-lnk a:hover{opacity:1}
+.hdr.scrolled{background:rgba(255,255,255,.9);border-bottom:1px solid var(--line)}
+.burger{display:none;flex-direction:column;gap:6px;width:28px;height:28px;justify-content:center;align-items:flex-end;background:none;border:0;cursor:pointer}
+.burger span{display:block;height:1.5px;border-radius:2px;background:var(--ink);transition:.3s}
+.burger span:nth-child(1){width:22px}.burger span:nth-child(2){width:16px}
+.drawer{position:fixed;inset:0;z-index:70;background:var(--paper);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:10px;opacity:0;visibility:hidden;transition:opacity .4s var(--ease),visibility .4s}
+.drawer.open{opacity:1;visibility:visible}
+.drawer a{font-family:var(--sans);font-weight:600;font-size:1.5rem;letter-spacing:.02em;color:var(--ink);padding:6px}
+.drawer .dx{position:absolute;top:22px;right:34px;font-size:1.7rem;background:none;border:0;color:var(--ink);cursor:pointer;line-height:1}
+.drawer .dn{margin-top:16px;font-family:var(--sans);font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--ink);padding:12px 28px}
+
+/* ---------- hero ---------- */
+.hero{padding:calc(var(--bar) + 56px) 0 0}
+.hero-in{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(30px,5vw,80px);align-items:center;min-height:60vh}
+.hero .eyebrow{margin-bottom:26px;display:inline-block}
+.hero h1{font-family:var(--brush);font-weight:400;font-size:clamp(3rem,7vw,5.4rem);line-height:1.3;letter-spacing:0}
+.hero h1 em{font-style:normal;color:var(--seal)}
+.hero .lead{margin-top:28px;font-size:1.02rem;color:var(--ink2);max-width:30em;line-height:1.9}
+.hero-cta{margin-top:38px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.hero-media{position:relative;aspect-ratio:4/5;overflow:hidden;background:var(--paper2)}
+.hero-media img{width:100%;height:100%;object-fit:cover}
+.hero-media .cap{position:absolute;left:16px;bottom:16px;font-family:var(--sans);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:#fff;mix-blend-mode:difference}
+
+/* section */
+.sec{padding:clamp(72px,11vw,150px) 0}
+.sec-head{margin-bottom:clamp(38px,6vw,70px)}
+.sec-head .eyebrow{display:block;margin-bottom:20px}
+.sec-head h2{font-family:var(--brush);font-weight:400;font-size:clamp(2.4rem,5vw,3.6rem);line-height:1.3;letter-spacing:0;max-width:16em}
+.sec-head p{margin-top:22px;color:var(--ink2);max-width:40em;line-height:1.9}
+
+/* ---------- philosophy ---------- */
+.philo{background:var(--paper)}
+.philo-in{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,7vw,110px);align-items:center}
+.philo-txt h2{font-family:var(--brush);font-weight:400;font-size:clamp(2.2rem,4.4vw,3.2rem);line-height:1.32;letter-spacing:0;margin-bottom:26px}
+.philo-txt h2 em{font-style:normal;color:var(--seal)}
+.philo-txt p{color:var(--ink2);margin-bottom:16px;line-height:1.95}
+.philo-txt p:last-child{margin-bottom:0}
+.philo-media{position:relative;aspect-ratio:3/4;overflow:hidden;background:var(--paper2)}
+.philo-media img{width:100%;height:100%;object-fit:cover}
+
+/* ---------- space (large minimal grid) ---------- */
+.space{background:var(--paper)}
+.sgrid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(16px,2.6vw,40px)}
+.sfig{margin:0}
+.sfig .ph{position:relative;overflow:hidden;background:var(--paper2)}
+.sfig .ph img{width:100%;height:100%;object-fit:cover;transition:transform .9s var(--ease)}
+@media(hover:hover){.sfig:hover .ph img{transform:scale(1.035)}}
+.sfig figcaption{margin-top:14px;display:flex;justify-content:space-between;gap:14px;font-family:var(--sans);font-size:.74rem;letter-spacing:.06em;color:var(--ink2)}
+.sfig figcaption .t{text-transform:uppercase}
+.ar45 .ph{aspect-ratio:4/5}.ar54 .ph{aspect-ratio:5/4}.ar11 .ph{aspect-ratio:1/1}.ar34 .ph{aspect-ratio:3/4}
+.span2{grid-column:1 / -1}.span2 .ph{aspect-ratio:16/8}
+.mt-lg{margin-top:clamp(30px,5vw,80px)}
+
+/* ---------- menu (typographic list) ---------- */
+.menu{background:var(--paper2)}
+.menu-in{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(40px,6vw,90px);align-items:start}
+.menu-intro h2{font-family:var(--brush);font-weight:400;font-size:clamp(2.3rem,4.6vw,3.3rem);line-height:1.3;margin-bottom:20px}
+.menu-intro p{color:var(--ink2);line-height:1.9;font-size:.98rem}
+.mcat{margin-bottom:clamp(34px,4vw,48px)}
+.mcat:last-child{margin-bottom:0}
+.mcat h3{font-family:var(--sans);font-weight:600;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ink2);padding-bottom:14px;margin-bottom:6px;border-bottom:1px solid var(--line)}
+.mcat h3 .k{font-family:var(--kr);letter-spacing:.04em;color:var(--ink2);margin-left:8px;text-transform:none;font-weight:500}
+.mrow{display:flex;align-items:baseline;gap:12px;padding:13px 0;border-bottom:1px solid var(--line2)}
+.mrow:last-child{border-bottom:0}
+.mrow .nm{font-family:var(--kr);font-weight:500;font-size:1rem;color:var(--ink)}
+.mrow .nm small{display:block;font-weight:400;font-size:.8rem;color:var(--ink2);margin-top:3px}
+.mrow .nm .sig{font-family:var(--sans);font-size:.62rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--seal);margin-left:8px;vertical-align:middle}
+.mrow .dots{flex:1;min-width:14px}
+.mrow .pr{font-family:var(--sans);font-weight:500;font-size:.98rem;color:var(--ink);white-space:nowrap}
+.mnote{margin-top:16px;font-size:.82rem;color:var(--ink2)}
+
+/* ---------- locations ---------- */
+.loc-sec{background:var(--paper)}
+.loc-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,4vw,56px)}
+.loc .ph{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--paper2);margin-bottom:24px}
+.loc .ph img{width:100%;height:100%;object-fit:cover;transition:transform .9s var(--ease)}
+@media(hover:hover){.loc:hover .ph img{transform:scale(1.035)}}
+.loc-name{font-family:var(--sans);font-weight:700;font-size:1.4rem;letter-spacing:-.01em;display:flex;align-items:baseline;gap:12px;margin-bottom:18px}
+.loc-name .k{font-family:var(--sans);font-size:.7rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+.vrow{display:grid;grid-template-columns:88px 1fr;gap:6px 14px;padding:12px 0;border-top:1px solid var(--line2);font-size:.95rem}
+.vrow:first-of-type{border-top:0}
+.vrow .k{font-family:var(--sans);font-size:.68rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);padding-top:4px}
+.vrow .v{color:var(--ink);line-height:1.68;min-width:0}
+.vrow .v .sub{color:var(--ink2);font-size:.86rem}
+.loc-btns{margin-top:24px;display:flex;gap:14px;flex-wrap:wrap}
+
+/* ---------- footer ---------- */
+footer{background:var(--ink);color:#D9D2C6;padding:clamp(60px,8vw,96px) 0 clamp(40px,5vw,60px)}
+.foot-top{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap;align-items:flex-start;padding-bottom:44px;border-bottom:1px solid rgba(255,255,255,.12)}
+.foot-brand img{height:30px;filter:brightness(0) invert(1);opacity:.9;margin-bottom:18px}
+.foot-brand p{font-family:var(--kr);font-weight:400;font-size:.95rem;color:#D0D0D0;line-height:1.8;max-width:20em}
+.foot-links{display:flex;gap:30px;flex-wrap:wrap}
+.foot-links a{font-family:var(--sans);font-size:.8rem;letter-spacing:.04em;color:#D9D2C6;opacity:.82;transition:opacity .2s}
+.foot-links a:hover{opacity:1}
+.foot-cr{margin-top:30px;font-family:var(--sans);font-size:.74rem;letter-spacing:.03em;color:#8A8377;line-height:1.9}
+
+/* quickbar */
+.qbar{display:none}
+.rv{opacity:1}
+@media (min-width:861px){
+ html.js .rv{opacity:0;transform:translateY(20px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+ html.js .rv.in{opacity:1;transform:none}
+}
+@media (max-width:900px){
+ .hero-in,.philo-in,.menu-in{grid-template-columns:1fr;gap:36px}
+ .hero-media,.philo-media{max-width:460px}
+ .loc-grid{grid-template-columns:1fr;gap:44px}
+}
+@media (max-width:820px){
+ .wrap{padding:0 26px}.hdr-in{padding:0 26px}
+ .nav-lnk{display:none}.burger{display:flex}
+ .sgrid{grid-template-columns:1fr;gap:22px}
+ .span2 .ph{aspect-ratio:4/3}
+ .qbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:55;padding:0;background:var(--paper);border-top:1px solid var(--line)}
+ .qbar a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;font-family:var(--sans);font-size:.82rem;letter-spacing:.04em;padding:15px 0}
+ .qbar a+a{border-left:1px solid var(--line)}
+ .qbar .q-map{background:var(--ink);color:var(--paper)}
+ .qbar svg{width:15px;height:15px}
+ body{padding-bottom:52px}
+}
+a:focus-visible,button:focus-visible{outline:2px solid var(--ink2);outline-offset:3px}
+footer a:focus-visible,.drawer a:focus-visible{outline-color:#fff}
+@media (hover:none){.btn:hover{background:transparent}.btn-fill:hover{background:var(--ink)}}
+</style>
+<noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
+<script>document.documentElement.className+=' js';</script>
+</head>
+<body>
+<!-- HEADER -->
+<header class="hdr" id="hdr">
+  <div class="hdr-in">
+    <a class="brand" href="#top" aria-label="카페 비미 홈"><img src="bimi-word.png" alt="카페 비미 BIMI"></a>
+    <nav class="nav-lnk" aria-label="주요 메뉴">
+      <a href="#philosophy">Philosophy</a>
+      <a href="#space">Space</a>
+      <a href="#menu">Menu</a>
+      <a href="#location">Location</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="메뉴 열기" aria-expanded="false" aria-controls="drawer"><span></span><span></span></button>
+  </div>
+</header>
+<div class="drawer" id="drawer">
+  <button class="dx" id="dx" aria-label="메뉴 닫기">&times;</button>
+  <a href="#philosophy">Philosophy</a>
+  <a href="#space">Space</a>
+  <a href="#menu">Menu</a>
+  <a href="#location">Location</a>
+  <a class="dn" href="https://map.naver.com/p/entry/place/1404651453" target="_blank" rel="noopener">Naver Map</a>
+</div>
+<span id="top"></span>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-txt">
+      <span class="eyebrow">Cafe & Interior<span class="k">비미 디자인</span></span>
+      <h1>미니멀 위에,<br><em>전통</em>을 얹다</h1>
+      <p class="lead">군더더기를 덜어낸 공간에 한옥의 결을 얹었습니다. 회화나무와 돌담, 창살 사이로 드는 자연광 곁에서 필터커피와 수제 디저트를 내어 드려요.</p>
+      <div class="hero-cta">
+        <a class="btn btn-fill" href="#menu">메뉴 보기</a>
+        <a class="tlink" href="#location">광주 · 전주 오시는 길</a>
+      </div>
+    </div>
+    <div class="hero-media rv">
+      <img src="v2-hero.webp" alt="한옥 돌담과 회화나무가 보이는 통창 너머 풍경" fetchpriority="high">
+      <span class="cap">Jeonju · 전라감영길</span>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="brushrule" style="margin-top:clamp(60px,9vw,120px)"><svg viewBox="0 0 120 22" fill="currentColor" aria-hidden="true"><path d="M4 12C30 6 55 15 80 10c15-3 28 0 36 2-8 2-21 0-36 1-25 4-50-4-76-1z"/></svg></div></div>
+
+<!-- PHILOSOPHY -->
+<section class="sec philo" id="philosophy">
+  <div class="wrap philo-in">
+    <div class="philo-txt rv">
+      <span class="eyebrow" style="display:block;margin-bottom:22px">Philosophy<span class="k">비미의 결</span></span>
+      <h2>덜어낸 자리에,<br><em>전통의 결</em>을 들입니다.</h2>
+      <p>비미는 인테리어 스튜디오 ‘비미 디자인’이 직접 빚은 공간입니다. 북유럽 빈티지 가구의 묵직한 균형 위에 콜렉터가 모아온 오브제를 얹어, 군더더기 없는 미니멀리즘을 완성했어요.</p>
+      <p>그 위에 얹은 것은 한옥의 결입니다. 돌담과 회화나무, 창살 사이로 스미는 자연광이 정갈한 공간과 만나 오직 비미에서만 느낄 수 있는 무드를 만듭니다.</p>
+    </div>
+    <div class="philo-media rv"><img src="v2-lounge.webp" alt="빈티지 가구와 식물이 놓인 정갈한 라운지" loading="lazy"></div>
+  </div>
+</section>
+
+<!-- SPACE -->
+<section class="sec space" id="space">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">Space<span class="k">공간</span></span>
+      <h2>비우고, 들이고, 머무는 자리</h2>
+    </div>
+    <div class="sgrid">
+      <figure class="sfig span2 rv"><div class="ph"><img src="v2-counter.webp" alt="바 카운터와 바리스타, 자연광이 드는 공간" loading="lazy"></div><figcaption><span class="t">The Counter</span><span>Gwangju</span></figcaption></figure>
+      <figure class="sfig ar45 rv"><div class="ph"><img src="v2-interior.webp" alt="화이트 벽과 원목 선반이 놓인 정갈한 내부" loading="lazy"></div><figcaption><span class="t">Interior</span><span>Gwangju</span></figcaption></figure>
+      <figure class="sfig ar45 rv"><div class="ph"><img src="v2-drip.webp" alt="핸드드립 커피를 내리는 모습" loading="lazy"></div><figcaption><span class="t">Hand Drip</span><span>Jeonju</span></figcaption></figure>
+      <figure class="sfig ar45 rv"><div class="ph"><img src="v2-shelf.webp" alt="오브제와 그릇이 놓인 선반" loading="lazy"></div><figcaption><span class="t">Objects</span><span>Gwangju</span></figcaption></figure>
+      <figure class="sfig ar45 rv"><div class="ph"><img src="v2-dessert.webp" alt="진열된 수제 디저트" loading="lazy"></div><figcaption><span class="t">Dessert</span><span>Jeonju</span></figcaption></figure>
+      <figure class="sfig ar45 rv"><div class="ph"><img src="v2-window.webp" alt="유리블럭 창으로 빛이 드는 카운터" loading="lazy"></div><figcaption><span class="t">Daylight</span><span>Jeonju</span></figcaption></figure>
+      <figure class="sfig ar45 rv"><div class="ph"><img src="v2-chairs.webp" alt="컬러가 담긴 디자이너 체어" loading="lazy"></div><figcaption><span class="t">Furniture</span><span>Jeonju</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="brushrule"><svg viewBox="0 0 120 22" fill="currentColor" aria-hidden="true"><path d="M4 12C30 6 55 15 80 10c15-3 28 0 36 2-8 2-21 0-36 1-25 4-50-4-76-1z"/></svg></div></div>
+
+<!-- MENU -->
+<section class="sec menu" id="menu">
+  <div class="wrap menu-in">
+    <div class="menu-intro rv">
+      <span class="eyebrow" style="display:block;margin-bottom:20px">Menu<span class="k">메뉴</span></span>
+      <h2>기본에 충실한 한 잔, 정성을 담은 한 접시</h2>
+      <p>매일 아침 신선하게 준비하는 수제 디저트와, 원두 본연의 향을 섬세하게 살린 필터커피. 계절마다 제철 재료로 시즌 메뉴가 달라집니다.</p>
+    </div>
+    <div class="menu-list rv">
+      <div class="mcat">
+        <h3>Hand Drip<span class="k">핸드드립</span></h3>
+        <div class="mrow"><span class="nm">BIMI Blend <span class="sig">Signature</span><small>베리 뉘앙스 · 월넛 · 카라멜</small></span><span class="dots"></span><span class="pr">6,000</span></div>
+        <div class="mrow"><span class="nm">Ethiopia Basha Bekele Bode<small>블루베리 · 딸기 · 플로럴</small></span><span class="dots"></span><span class="pr">8,000</span></div>
+        <div class="mrow"><span class="nm">Ethiopia Worka Sakaro<small>플로럴 · 베르가못 · 천도복숭아</small></span><span class="dots"></span><span class="pr">8,000</span></div>
+        <div class="mrow"><span class="nm">Panama Altieri Rola Catuai<small>포도 · 와이니 · 믹스베리</small></span><span class="dots"></span><span class="pr">9,500</span></div>
+        <div class="mrow"><span class="nm">Colombia El Paraiso <small>디카페인 · 리치 · 복숭아</small></span><span class="dots"></span><span class="pr">8,000</span></div>
+      </div>
+      <div class="mcat">
+        <h3>Drinks<span class="k">음료</span></h3>
+        <div class="mrow"><span class="nm">아메리카노</span><span class="dots"></span><span class="pr">4,500</span></div>
+        <div class="mrow"><span class="nm">아포가토</span><span class="dots"></span><span class="pr">6,500</span></div>
+        <div class="mrow"><span class="nm">호지 바닐라 라떼</span><span class="dots"></span><span class="pr">7,000</span></div>
+        <div class="mrow"><span class="nm">루바브 · 블루베리 에이드</span><span class="dots"></span><span class="pr">7,000</span></div>
+        <div class="mrow"><span class="nm">바이올렛 · 매하</span><span class="dots"></span><span class="pr">6,500~</span></div>
+      </div>
+      <div class="mcat">
+        <h3>Dessert<span class="k">디저트</span></h3>
+        <div class="mrow"><span class="nm">복숭아 파르페 <span class="sig">Signature</span></span><span class="dots"></span><span class="pr">12,000</span></div>
+        <div class="mrow"><span class="nm">밀푀유</span><span class="dots"></span><span class="pr">9,500</span></div>
+        <div class="mrow"><span class="nm">파리 브레스트 · 밤 초코 몽블랑</span><span class="dots"></span><span class="pr">8,500</span></div>
+        <div class="mrow"><span class="nm">바니 무스케이크 · 휘그</span><span class="dots"></span><span class="pr">8,500</span></div>
+        <div class="mrow"><span class="nm">산딸기 몽블랑 · 베리아쥬</span><span class="dots"></span><span class="pr">6,500~</span></div>
+        <p class="mnote">* 비미 페어링(커피+디저트), 구움과자·디저트 선물세트, 단체 주문은 매장으로 문의해 주세요.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section class="sec loc-sec" id="location">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">Location<span class="k">오시는 길</span></span>
+      <h2>광주와 전주, 두 곳의 비미</h2>
+    </div>
+    <div class="loc-grid">
+      <article class="loc rv">
+        <div class="ph"><img src="v2-gw-sign.webp" alt="카페 비미 광주 동명동 외관" loading="lazy"></div>
+        <div class="loc-name">Gwangju <span class="k">광주 · 동명동</span></div>
+        <div class="vrow"><div class="k">Address</div><div class="v">광주광역시 동구 동계로10번길 16, 1층<br><span class="sub">문화전당역 4번 출구에서 약 939m</span></div></div>
+        <div class="vrow"><div class="k">Hours</div><div class="v">매일 11:00 – 23:00 <span class="sub">(연중무휴)</span></div></div>
+        <div class="vrow"><div class="k">Parking</div><div class="v"><span class="sub">동명동 제2공영주차장 바로 옆 · ACC 부설주차장 1시간 무료권</span></div></div>
+        <div class="vrow"><div class="k">Tel</div><div class="v">070-7537-0480</div></div>
+        <div class="loc-btns">
+          <a class="btn btn-ol" href="https://map.naver.com/p/entry/place/1404651453" target="_blank" rel="noopener">Naver Map</a>
+          <a class="tlink" href="tel:070-7537-0480">전화하기</a>
+        </div>
+      </article>
+      <article class="loc rv">
+        <div class="ph"><img src="v2-jj-ext.webp" alt="카페 비미 전주 전라감영길 — 한옥 돌담 옆 외관" loading="lazy"></div>
+        <div class="loc-name">Jeonju <span class="k">전주 · 전라감영길</span></div>
+        <div class="vrow"><div class="k">Address</div><div class="v">전북 전주시 완산구 전라감영5길 12, 1층<br><span class="sub">전라감영 · 전주 한옥마을 인근</span></div></div>
+        <div class="vrow"><div class="k">Hours</div><div class="v">11:00 – 22:00 <span class="sub">(L.O. 21:30) · 목요일 정기휴무</span></div></div>
+        <div class="vrow"><div class="k">Parking</div><div class="v"><span class="sub">연계 주차장 없음 · 인근 민영주차장(콩새·영빈·기은) 권장</span></div></div>
+        <div class="vrow"><div class="k">Tel</div><div class="v">0507-1456-7787</div></div>
+        <div class="loc-btns">
+          <a class="btn btn-ol" href="https://map.naver.com/p/entry/place/2017645174" target="_blank" rel="noopener">Naver Map</a>
+          <a class="tlink" href="https://pf.kakao.com/_eGljn" target="_blank" rel="noopener">카카오톡</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="bimi-word.png" alt="카페 비미 BIMI">
+        <p>미니멀 위에 전통의 결을 얹은 공간.<br>Gwangju · Jeonju</p>
+      </div>
+      <nav class="foot-links" aria-label="바로가기">
+        <a href="#philosophy">Philosophy</a>
+        <a href="#space">Space</a>
+        <a href="#menu">Menu</a>
+        <a href="#location">Location</a>
+        <a href="https://www.instagram.com/bimi_jeonju/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://blog.naver.com/kafebimi" target="_blank" rel="noopener">Blog</a>
+      </nav>
+    </div>
+    <p class="foot-cr">Gwangju · 광주광역시 동구 동계로10번길 16, 1층 · 매일 11:00–23:00 · 070-7537-0480<br>Jeonju · 전북 전주시 완산구 전라감영5길 12, 1층 · 11:00–22:00(목 휴무) · 0507-1456-7787 · © 2026 bimi</p>
+  </div>
+</footer>
+
+<div class="qbar">
+  <a class="q-call" href="tel:070-7537-0480"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>전화</a>
+  <a class="q-map" href="https://map.naver.com/p/entry/place/1404651453" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 21s-6-5.2-6-10a6 6 0 1 1 12 0c0 4.8-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/></svg>네이버 지도</a>
+</div>
+
+<noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
+<script>
+(function(){
+  var hdr=document.getElementById('hdr'),tick=false;
+  function sc(){if(tick)return;tick=true;requestAnimationFrame(function(){hdr.classList.toggle('scrolled',window.scrollY>40);tick=false;});}
+  window.addEventListener('scroll',sc,{passive:true});sc();
+  var b=document.getElementById('burger'),dr=document.getElementById('drawer'),dx=document.getElementById('dx');
+  function op(){dr.classList.add('open');b.setAttribute('aria-expanded','true');}
+  function cl(){dr.classList.remove('open');b.setAttribute('aria-expanded','false');}
+  b.addEventListener('click',op);dx.addEventListener('click',cl);
+  dr.querySelectorAll('a').forEach(function(a){a.addEventListener('click',cl);});
+  if(window.matchMedia('(min-width:861px)').matches){
+    var els=[].slice.call(document.querySelectorAll('.rv'));
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.08,rootMargin:'0px 0px -6% 0px'});
+    els.forEach(function(el){io.observe(el);});
+    setTimeout(function(){els.forEach(function(el){el.classList.add('in');});},2200);
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click',function(e){var id=a.getAttribute('href');if(id.length<2)return;var t=document.querySelector(id);if(!t)return;e.preventDefault();var y=t.getBoundingClientRect().top+window.scrollY-70,st=window.scrollY,d=y-st,t0=null;
+    function step(ts){if(!t0)t0=ts;var p=Math.min((ts-t0)/640,1);var e2=p<.5?2*p*p:1-Math.pow(-2*p+2,2)/2;window.scrollTo(0,st+d*e2);if(p<1)requestAnimationFrame(step);}requestAnimationFrame(step);});
+  });
+})();
+</script>
+</body>
+</html>
